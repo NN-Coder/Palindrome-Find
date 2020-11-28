@@ -1,0 +1,17 @@
+while True:
+    
+  print('Enter your word please.')
+  word=input()
+  print ('Your word is', word)
+
+  #reversestring 
+  stringlength=len(word) # calculate length of the list
+  reverse=word[stringlength::-1] # slicing 
+  print (reverse) # print the reversed string
+
+  # compare
+
+  if word == reverse:
+    print('That is a palindrome!!')
+  else:
+    print('That is not a palindrome!')
